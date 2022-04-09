@@ -44,7 +44,7 @@ mongoose
  .catch(err => console.log(err));
 
  app.get("/",(req,res)=>{
-   res.render("list");
+   res.send("list");
  })
 
 
